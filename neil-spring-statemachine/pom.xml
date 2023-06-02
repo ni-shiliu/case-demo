@@ -13,10 +13,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>neil-spring-statemachine</name>
     <description>neil-spring-statemachine</description>
+
     <properties>
         <java.version>1.8</java.version>
         <kotlin.version>1.8.21</kotlin.version>
+        <spring.statemachine.version>3.0.1</spring.statemachine.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -57,6 +60,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.statemachine</groupId>
+            <artifactId>spring-statemachine-starter</artifactId>
+            <version>${spring.statemachine.version}</version>
         </dependency>
     </dependencies>
 
